@@ -1,7 +1,9 @@
+import data from "./data";
+import React, {useState} from 'react';
 
 
-function App() {
-  return (
+const App = ()=>{
+  return(
     <div>
       
     </div>

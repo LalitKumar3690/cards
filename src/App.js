@@ -3,9 +3,12 @@ import React, {useState} from 'react';
 import Cards from './components/Cards';
 
 const App = ()=>{
+  function removehandler(id){
+
+  }
   return(
     <div>
-      <Cards Cardsdata = {data}></Cards>
+      <Cards Cardsdata = {data} removehandler = {removehandler}></Cards>
     </div>
   );
 }

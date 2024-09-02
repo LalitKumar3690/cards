@@ -2,7 +2,7 @@
 const data = [
     {
       id: 1,
-      imageSrc: 'https://example.com/images/javascript.png',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvuLWERwi90PN2IoCWdskisemYu8k1R1CxtA&s',
       languageName: 'JavaScript',
       author: 'Brendan Eich',
       description: 'A versatile, high-level programming language commonly used for web development.',
@@ -10,7 +10,7 @@ const data = [
     },
     {
       id: 2,
-      imageSrc: 'https://example.com/images/python.png',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYZqZkpMyiN2uSuT7GAf6JSkJ44YsZqoQHdw&s',
       languageName: 'Python',
       author: 'Guido van Rossum',
       description: 'A high-level, interpreted language known for its readability and broad usage in scientific computing.',
@@ -18,7 +18,7 @@ const data = [
     },
     {
       id: 3,
-      imageSrc: 'https://example.com/images/java.png',
+      imageSrc: 'https://1000logos.net/wp-content/uploads/2020/09/Java-Emblem.jpg',
       languageName: 'Java',
       author: 'James Gosling',
       description: 'A class-based, object-oriented language designed to be platform-independent.',
@@ -26,7 +26,7 @@ const data = [
     },
     {
       id: 4,
-      imageSrc: 'https://example.com/images/csharp.png',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU33yvIQWIHDHIFJP60iBErrDQVrCTlH7DsA&s',
       languageName: 'C#',
       author: 'Microsoft',
       description: 'A modern, object-oriented language developed by Microsoft as part of the .NET framework.',
@@ -34,7 +34,7 @@ const data = [
     },
     {
       id: 5,
-      imageSrc: 'https://example.com/images/ruby.png',
+      imageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzERG4F_eiYvlD9mIhEXZ4od8edpp7USKxww&s',
       languageName: 'Ruby',
       author: 'Yukihiro Matsumoto',
       description: 'A dynamic, object-oriented language known for its simplicity and productivity.',
@@ -42,7 +42,7 @@ const data = [
     },
     {
       id: 6,
-      imageSrc: 'https://example.com/images/php.png',
+      imageSrc: 'https://w7.pngwing.com/pngs/185/655/png-transparent-logo-php-computer-icons-symbol-miscellaneous-emblem-text-thumbnail.png',
       languageName: 'PHP',
       author: 'Rasmus Lerdorf',
       description: 'A widely-used, open-source scripting language designed for web development.',
@@ -50,7 +50,7 @@ const data = [
     },
     {
       id: 7,
-      imageSrc: 'https://example.com/images/go.png',
+      imageSrc: 'https://w7.pngwing.com/pngs/566/160/png-transparent-golang-hd-logo-thumbnail.png',
       languageName: 'Go',
       author: 'Google',
       description: 'A statically typed, compiled language known for its efficiency and simplicity in system programming.',

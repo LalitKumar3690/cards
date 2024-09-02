@@ -1,14 +1,15 @@
 import Card from './Card'
 import { useState } from 'react'
 
-const Cards = (props)=>{
+const Cards = ({Cardsdata, removehandler})=>{
+    
     return(
         <div>
             <div>programming Courses</div>
             <div>
                 {
-                    props.map((course)=>{
-                        return <Card key={course.id}{...course}></Card>
+                    Cardsdata.map((course)=>{
+                        return <Card key={course.id}{...course} removehandler = {removehandler}></Card>
                     })
                 }
             </div>

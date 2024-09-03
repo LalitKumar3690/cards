@@ -9,7 +9,7 @@ const App = ()=>{
     setcarddetails(filterdata);
   }
   return(
-    <div className="w-[100vw] h-[100vh] bg-slate-500 flex justify-center">
+    <div className="w-[100vw] h-[100%] bg-slate-500 flex justify-center m-0 p-0">
       <Cards Cardsdata = {carddetails} removeHandler = {removeHandler}></Cards>
     </div>
   );

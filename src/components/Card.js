@@ -1,6 +1,6 @@
 
 
-const Card = ({id , imageSrc, languageName, author, description, yearCreated}, {removehandler})=>{
+const Card = ({id , imageSrc, languageName, author, description, yearCreated}, {removeHandler})=>{
     return(
         <div>
             <img src={imageSrc}></img>
@@ -16,7 +16,7 @@ const Card = ({id , imageSrc, languageName, author, description, yearCreated}, {
                 <span>
                     {description}
                 </span>
-                <button onClick={()=>removehandler(id)}>NOT INTRESTED</button>
+                <button onClick={() => removeHandler(id)}>NOT INTRESTED</button>
             </div>
         </div>
     );
